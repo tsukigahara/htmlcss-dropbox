@@ -1,3 +1,4 @@
+/* general rules */
 * {
     margin: 0;
     border: 0;
@@ -102,6 +103,17 @@ a {
 
 }
 
+section {
+    background-color: white;
+    width: 100%;
+}
+
+.conteiner {
+    width: 60%;
+    margin: auto;
+}
+
+/* Header */
 header {
     background-color: white;
     width: 100%;
@@ -110,22 +122,11 @@ header {
     justify-content: center;
 }
 
-section {
-    background-color: white;
-    width: 100%;
-}
-
-.conteiner {
-    /* background-color: rgb(237, 237, 237); */
-    width: 60%;
-    margin: auto;
-}
 
 .header-nav {
     width: 100%;
     max-width: 2000px;
-    min-height: 70px;
-    padding: 10px;
+    padding: 0px 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -143,11 +144,21 @@ section {
     width: 450px;
 }
 
+.navitems {
+    height: 70px;
+    line-height: 70px;
+}
+
+.navitems:hover {
+    border-bottom: 3px solid black;
+}
+
 .navbox img {
     width: 120px;
     height: auto;
 }
 
+/* main section */
 .catch {
     background-color: lightblue;
     position: relative;
@@ -184,6 +195,7 @@ section {
     height: auto;
 }
 
+/* plan section */
 #plan .conteiner {
     display: flex;
     flex-direction: column;
@@ -240,6 +252,7 @@ section {
     border: 2px solid rgb(219, 219, 219);
 }
 
+/* image section */
 .flexbox {
     display: flex;
     justify-content: space-between;
@@ -272,6 +285,7 @@ section {
     margin: 8px 0;
 }
 
+/* info section */
 .infobox {
     display: flex;
     flex-wrap: wrap;
@@ -295,6 +309,7 @@ section {
     padding-bottom: 20px;
 }
 
+/* catchfrase section */
 .catchfrase .conteiner {
     min-height: 250px;
     display: flex;
@@ -303,7 +318,7 @@ section {
     padding-right: 20%;
 }
 
-
+/* sponsor section */
 .sponsorbox {
     display: flex;
     height: 30vw;
@@ -347,6 +362,7 @@ section {
     height: auto;
 }
 
+/* colorcatch section */
 .colorcatch {
     background-color: lightblue;
 }
@@ -359,6 +375,11 @@ section {
     padding-right: 80px;
 }
 
+.colorcatch .conteiner h3 {
+    width: 45%;
+}
+
+/* faq section */
 .faq {
     padding: 150px 0;
 }
@@ -384,6 +405,7 @@ section {
     border-bottom: 2px solid rgb(219, 219, 219);
 }
 
+/* footer */
 .footer {
     display: flex;
     flex-direction: column;
